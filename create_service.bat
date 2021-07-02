@@ -44,5 +44,5 @@ goto check_Permissions
   nssm set %SERVICE_NAME% AppStderr "%HOME%\logs\error.log"
 
   :: Start the service
-  nssm start %SERVICE_NAME%
-  echo Successfully installed and started service %SERVICE_NAME%
+  :: nssm start %SERVICE_NAME%
+  :: echo Successfully installed and started service %SERVICE_NAME%
