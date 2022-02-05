@@ -2,7 +2,7 @@ module.exports = {
   apps : [
     {
       name: 'bay-extracts-node',
-      cwd: 'C:\\iacon\\baymax-extracts-node',
+      cwd: 'C:\\aeron\\baymax-extracts-node',
       script: 'dist\\schedules\\server.js',
       cron_restart: "1 0 * * *",
       min_uptime: 5000,
@@ -11,7 +11,7 @@ module.exports = {
     },
     {
       name: 'iacon-rest-api-pg',
-      cwd: 'C:\\iacon\\iacon-rest-api-pg',
+      cwd: 'C:\\aeron\\iacon-rest-api-pg',
       script: 'dist\\server.js',
       cron_restart: "1 0 * * *",
       min_uptime: 5000,
@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'webscraping-nfe-go-s',
-      cwd: 'C:\\iacon\\webscraping-nfe-nfce-go',
+      cwd: 'C:\\aeron\\webscraping-nfe-nfce-go-v2',
       script: 'dist\\schedules\\server.js',
       cron_restart: "1 0 * * *",
       min_uptime: 5000,
@@ -29,7 +29,7 @@ module.exports = {
     },
     {
       name: 'webscraping-nfe-go-q',
-      cwd: 'C:\\iacon\\webscraping-nfe-nfce-go',
+      cwd: 'C:\\aeron\\webscraping-nfe-nfce-go-v2',
       script: 'dist\\queues\\queue.js',
       cron_restart: "0 */1 * * *",
       min_uptime: 5000,
@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       name: 'webscraping-gyn-go-s',
-      cwd: 'C:\\iacon\\webscraping-nfse-goiania',
+      cwd: 'C:\\aeron\\webscraping-nfse-goiania',
       script: 'dist\\schedules\\server.js',
       cron_restart: "1 0 * * *",
       min_uptime: 5000,
@@ -47,7 +47,7 @@ module.exports = {
     },
     {
       name: 'webscraping-gyn-go-q',
-      cwd: 'C:\\iacon\\webscraping-nfse-goiania',
+      cwd: 'C:\\aeron\\webscraping-nfse-goiania',
       script: 'dist\\queues\\queue.js',
       cron_restart: "1 0 * * *",
       min_uptime: 5000,
