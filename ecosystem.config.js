@@ -12,7 +12,7 @@ module.exports = {
     {
       name: 'upload-certificates',
       cwd: 'C:\\aeron\\upload-certificates',
-      script: 'dist\\server.js',
+      script: 'dist\\index.js',
       cron_restart: "1 0 * * *",
       min_uptime: 5000,
 	    max_restarts: 3,
