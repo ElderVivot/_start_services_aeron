@@ -10,8 +10,8 @@ module.exports = {
 	    restart_delay: 4000
     },
     {
-      name: 'iacon-rest-api-pg',
-      cwd: 'C:\\aeron\\iacon-rest-api-pg',
+      name: 'upload-certificates',
+      cwd: 'C:\\aeron\\upload-certificates',
       script: 'dist\\server.js',
       cron_restart: "1 0 * * *",
       min_uptime: 5000,
@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       name: 'webscraping-gyn-go-s',
-      cwd: 'C:\\aeron\\webscraping-nfse-goiania',
+      cwd: 'C:\\aeron\\webscraping-nfse-goiania-v2',
       script: 'dist\\schedules\\server.js',
       cron_restart: "1 0 * * *",
       min_uptime: 5000,
@@ -47,7 +47,7 @@ module.exports = {
     },
     {
       name: 'webscraping-gyn-go-q',
-      cwd: 'C:\\aeron\\webscraping-nfse-goiania',
+      cwd: 'C:\\aeron\\webscraping-nfse-goiania-v2',
       script: 'dist\\queues\\queue.js',
       cron_restart: "1 0 * * *",
       min_uptime: 5000,
